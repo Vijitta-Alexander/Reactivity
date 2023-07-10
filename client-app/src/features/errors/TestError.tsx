@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import {Button, Header, Segment} from "semantic-ui-react";
 import axios from 'axios';
-import VAlidationError from './ValidationError';
 import ValidationError from './ValidationError';
 
 export default function TestErrors() {
