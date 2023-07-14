@@ -32,7 +32,7 @@ export default observer(function NavBar() {
           />
         </Menu.Item>
         <Menu.Item position="right">
-          <Image src={user?.image || "assets/user.png"} avatar spaced="right" />
+          <Image src={user?.image || "../assets/user.png"} avatar spaced="right" />
           <Dropdown pointing="top left" text={user?.displayName}>
             <Dropdown.Menu>
               <Dropdown.Item
